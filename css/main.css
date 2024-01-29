@@ -705,19 +705,26 @@ section.sns .sub-container .bottom .time {
 /* footer style */
 
 footer {
-    /* background: #f86010; */
-    /* position: relative; */
+    width: 100%;
+    border-top: 1px solid gray;
+}
     
+
+
+footer .inner {
+    margin: 50px auto;
 }
 
 footer .inner .ft-logo {
     margin-left: 100px;
-    float: left;s
+    float: left;
 }
 
 footer .inner .address  {
     font-weight: bold;
     margin-left: 50px;
+    margin-top: 10px;
+    float: left;
 
 }
 
@@ -725,10 +732,12 @@ footer .inner .address .en {
     font-size: 12px;
     font-weight: 400;
     margin: 10px;
+    color: lightgrey;
 }
 
 footer .inner .list {
     float: left;
+    margin-top: 10px;
    
     /* position: relative; */
 }
@@ -736,8 +745,8 @@ footer .inner .list {
 footer .inner .list li {
     float: left;
     margin-left: 100px;
+}
 
-    /* position: absolute;
-    right: 50xp;
-    bottom: 10px; */
+footer .list li:last-child{
+    font-weight: 700;
 }
